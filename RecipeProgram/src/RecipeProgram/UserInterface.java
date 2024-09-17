@@ -13,10 +13,11 @@ public class UserInterface {
 	
 	public void start() {
 		
+		RecipeManager manager = new RecipeManager(scanner);
+
+		
 		while(true) {
-			
-			RecipeManager manager = new RecipeManager(scanner);
-			
+				
 			System.out.println("Welcome Recipe Manager\n"
 					+ "What do you wish to do?\n");
 			

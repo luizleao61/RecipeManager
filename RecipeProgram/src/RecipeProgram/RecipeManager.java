@@ -55,14 +55,11 @@ public class RecipeManager {
 			
 		}
 		
-		System.out.println(this.recipeList);
 
-
-			
-		
 	}
 	
 	public void listRecipes() {
+		
 		
 		for(Recipe currentRecipe: this.recipeList) {
 			
